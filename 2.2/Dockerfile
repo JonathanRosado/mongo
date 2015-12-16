@@ -32,5 +32,6 @@ VOLUME /data/db
 COPY docker-entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 
+EXPOSE 28017
 EXPOSE 27017
 CMD ["mongod"]
